@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blank website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Content goes here -->
+   
+<div class="Container">
+<div class="nav">
+  <img src="image copy.png" alt="" width="40px" height="40px">
+  
+  <div class="guide">
+
+      <a>ABOUT</a>
+
+      <a >PROJECTS</a>
+
+      <a >CONTACT</a>
+
+</div>
+</div>
+
+<div class="box1">
+  <div>
+    <h1>Hello!</h1>
+    <p>It is not a real people's website page</p>
+    <p>you're welcome!!</p>
+  </div>
+</div>
+
+<div class="box2">
+  <div class="photo">  
+    <img src="WechatIMG774.jpg" width="150px" height="300px">
+    <img src="WechatIMG773.jpg" width="160px" height="300px">
+  </div>
+
+  <div class="text1">
+    <h1 style="color: white;">GENDER</h1>
+    <p style="color: white;">Male</p>
+    <h1 style="color: white;">NAME:</h1>
+    <p style="color: white;">Shenhaishuicao</p>
+    <h1 style="color: white;">INTRODUCTION</h1>
+    <p style="color: white;">Hello! Meet for the first time, this is my personal page, welcome! I am a character from the virtual world, even so, my master will give me a lot of beautiful clothes!</p>
+    <h1 style="color: white;">BACKGROUND:</h1>
+    <p style="color: white;">Song dynesty</p>
+  </div>
+</div>
+
+<div class="box3 bg2">
+  <div class="row">
+    <div class="photobox">
+      <div class="pic1" href="#">
+        <img src="WechatIMG753.jpg" alt="">
+      </div>
+      <div class="pic2 active" href="#">
+        <img src="WechatIMG749.jpg" alt="">
+      </div>
+      <div class="pic3" href="#">
+        <img src="WechatIMG748.jpg" alt="">
+      </div>
+      <div class="pic4" href="#">
+        <img src="WechatIMG741.jpg" alt="">
+      </div>
+      <div class="pic5" href="#">
+        <img src="WechatIMG740.jpg" alt="">
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 1. one of the small picture is active -->
+ <!-- 2. when i click on another small pic -->
+  <!-- 3. change the background tp that pic -->
+
+
+<script>
+var box = document.querySelector(".box3");
+var pic1 = document.querySelector(".pic1");
+var pic2 = document.querySelector(".pic2");
+var pic3 = document.querySelector(".pic3");
+var pic4 = document.querySelector(".pic4");
+var pic5 = document.querySelector(".pic5");
+
+pic1.addEventListener('click', function(){
+  box.classList.remove("bg1", "bg2", "bg3", "bg4", "bg5");
+  box.classList.add('bg1');
+});
+
+pic2.addEventListener('click', function(){
+  box.classList.remove("bg1", "bg2", "bg3", "bg4", "bg5");
+  box.classList.add('bg2');
+});
+
+pic3.addEventListener('click', function(){
+  box.classList.remove("bg1", "bg2", "bg3", "bg4", "bg5");
+  box.classList.add('bg3');
+});
+
+pic4.addEventListener('click', function(){
+  box.classList.remove("bg1", "bg2", "bg3", "bg4", "bg5");
+  box.classList.add('bg4');
+});
+
+pic5.addEventListener('click', function(){
+  box.classList.remove("bg1", "bg2", "bg3", "bg4", "bg5");
+  box.classList.add('bg5');
+});
+
+</script>
+
+<div class="box4">
+  <div>
+    <div class="wechat">
+    
+      <img src="image copy 2.png">
+      <div class="font">
+  <h1>We chat:</h1>
+      <p>18806579061</p>
+      </div>
+    </div>
+    <div class="email">
+      <img src="image copy 3.png"> 
+      <div class="font">
+      <h1>Email:</h1>
+      <p>2657613284@qq.com</p>
+      </div>
+    </div>
+    <div class="game">
+      <img src="image copy 4.png">
+      <div class="font">
+      <h1>Game ID:</h1>
+      <p>Shenhaishuicao</p>
+      </div>
+      </div>
+  </div>
+</div>
+
+  <div class="white">
+    <p>See you next time!</p>
+    </div>
+
+
+</body>
+</html>
+
+
